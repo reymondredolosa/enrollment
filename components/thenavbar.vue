@@ -1,7 +1,7 @@
 <template>
     <div>
   <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand><NuxtLink to="/Home">LOGO</NuxtLink></b-navbar-brand>
+    <b-navbar-brand><NuxtLink to="/">LOGO</NuxtLink></b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -33,6 +33,16 @@
   </b-navbar>
 </div>
 </template>
+<style>
+.nuxt-link-active{
+  color: black;
+}
+.nuxt-link-exact-active{
+  font-weight: bold;
+}
+
+</style>
+
 <script>
 export default {
     
