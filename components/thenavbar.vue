@@ -7,10 +7,8 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item ><NuxtLink to="/Dashboard">Dashboard</NuxtLink></b-nav-item>
-        <b-nav-item ><NuxtLink to="/Order">Orders</NuxtLink></b-nav-item>
-        <b-nav-item ><NuxtLink to="/Product">Products</NuxtLink></b-nav-item>
-        <b-nav-item ><NuxtLink to="/Costumer">Costumer</NuxtLink></b-nav-item>
+        <b-nav-item ><NuxtLink  to="/dashboard" >Dashboard</NuxtLink></b-nav-item>
+        <b-nav-item ><NuxtLink to="/student">Students</NuxtLink></b-nav-item>
         
       </b-navbar-nav>
 
@@ -39,6 +37,12 @@
 }
 .nuxt-link-exact-active{
   font-weight: bold;
+}
+.b-nav-item .nuxt-link-active{
+  color: black;
+}
+.b-navbar-nav .b-nav-item .nuxt-link{
+  color: black;
 }
 
 </style>

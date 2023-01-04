@@ -2,7 +2,7 @@
 
 <template>
   
-  <div>
+  <div class="main">
     
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group
