@@ -106,6 +106,21 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'New',
+          to: '/addquestion'
+        }
+        ,{
+          icon: 'mdi-chart-bubble',
+          title: 'Edit/Delete Question',
+          to: '/updatequestion'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Questionaire',
+          to: '/questionaire'
         }
       ],
       miniVariant: false,
